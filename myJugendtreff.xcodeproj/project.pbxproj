@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		25DE85DD1BFA152700CFA6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE85DC1BFA152700CFA6CA /* AppDelegate.swift */; };
-		25DE85DF1BFA152700CFA6CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE85DE1BFA152700CFA6CA /* ViewController.swift */; };
 		25DE85E21BFA152700CFA6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DE85E01BFA152700CFA6CA /* Main.storyboard */; };
 		25DE85E51BFA152700CFA6CA /* myJugendtreff.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25DE85E31BFA152700CFA6CA /* myJugendtreff.xcdatamodeld */; };
 		25DE85E71BFA152700CFA6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DE85E61BFA152700CFA6CA /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		25DE85D91BFA152700CFA6CA /* myJugendtreff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myJugendtreff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DE85DC1BFA152700CFA6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25DE85DE1BFA152700CFA6CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		25DE85E11BFA152700CFA6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25DE85E41BFA152700CFA6CA /* myJugendtreff.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myJugendtreff.xcdatamodel; sourceTree = "<group>"; };
 		25DE85E61BFA152700CFA6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 		25DE85DB1BFA152700CFA6CA /* myJugendtreff */ = {
 			isa = PBXGroup;
 			children = (
-				25DE85DE1BFA152700CFA6CA /* ViewController.swift */,
 				25DE85E01BFA152700CFA6CA /* Main.storyboard */,
 				25DE860D1BFA178300CFA6CA /* Additional Files */,
 			);
@@ -266,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DE85DF1BFA152700CFA6CA /* ViewController.swift in Sources */,
 				25DE85E51BFA152700CFA6CA /* myJugendtreff.xcdatamodeld in Sources */,
 				25DE85DD1BFA152700CFA6CA /* AppDelegate.swift in Sources */,
 			);
