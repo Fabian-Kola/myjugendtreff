@@ -16,6 +16,7 @@
 		25DE86001BFA152700CFA6CA /* myJugendtreffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE85FF1BFA152700CFA6CA /* myJugendtreffUITests.swift */; };
 		25DE86121BFA1B1800CFA6CA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DE86111BFA1B1800CFA6CA /* SWRevealViewController.m */; };
 		25DE86141BFA1D9B00CFA6CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE86131BFA1D9B00CFA6CA /* HomeViewController.swift */; };
+		25DE86161BFA216A00CFA6CA /* CustomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE86151BFA216A00CFA6CA /* CustomNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		25DE86101BFA1B1800CFA6CA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		25DE86111BFA1B1800CFA6CA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		25DE86131BFA1D9B00CFA6CA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		25DE86151BFA216A00CFA6CA /* CustomNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				25DE85E01BFA152700CFA6CA /* Main.storyboard */,
 				25DE86131BFA1D9B00CFA6CA /* HomeViewController.swift */,
+				25DE86151BFA216A00CFA6CA /* CustomNavigationViewController.swift */,
 				25DE860E1BFA1AF500CFA6CA /* SWRevealViewController */,
 				25DE860D1BFA178300CFA6CA /* Additional Files */,
 			);
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25DE85E51BFA152700CFA6CA /* myJugendtreff.xcdatamodeld in Sources */,
+				25DE86161BFA216A00CFA6CA /* CustomNavigationViewController.swift in Sources */,
 				25DE85DD1BFA152700CFA6CA /* AppDelegate.swift in Sources */,
 				25DE86121BFA1B1800CFA6CA /* SWRevealViewController.m in Sources */,
 				25DE86141BFA1D9B00CFA6CA /* HomeViewController.swift in Sources */,
