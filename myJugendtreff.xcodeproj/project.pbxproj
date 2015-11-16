@@ -99,13 +99,9 @@
 		25DE85DB1BFA152700CFA6CA /* myJugendtreff */ = {
 			isa = PBXGroup;
 			children = (
-				25DE85DC1BFA152700CFA6CA /* AppDelegate.swift */,
 				25DE85DE1BFA152700CFA6CA /* ViewController.swift */,
 				25DE85E01BFA152700CFA6CA /* Main.storyboard */,
-				25DE85E61BFA152700CFA6CA /* Assets.xcassets */,
-				25DE85E81BFA152700CFA6CA /* LaunchScreen.storyboard */,
-				25DE85EB1BFA152700CFA6CA /* Info.plist */,
-				25DE85E31BFA152700CFA6CA /* myJugendtreff.xcdatamodeld */,
+				25DE860D1BFA178300CFA6CA /* Additional Files */,
 			);
 			path = myJugendtreff;
 			sourceTree = "<group>";
@@ -126,6 +122,18 @@
 				25DE86011BFA152700CFA6CA /* Info.plist */,
 			);
 			path = myJugendtreffUITests;
+			sourceTree = "<group>";
+		};
+		25DE860D1BFA178300CFA6CA /* Additional Files */ = {
+			isa = PBXGroup;
+			children = (
+				25DE85DC1BFA152700CFA6CA /* AppDelegate.swift */,
+				25DE85E61BFA152700CFA6CA /* Assets.xcassets */,
+				25DE85E81BFA152700CFA6CA /* LaunchScreen.storyboard */,
+				25DE85EB1BFA152700CFA6CA /* Info.plist */,
+				25DE85E31BFA152700CFA6CA /* myJugendtreff.xcdatamodeld */,
+			);
+			name = "Additional Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
