@@ -14,6 +14,8 @@
 		25DE85EA1BFA152700CFA6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DE85E81BFA152700CFA6CA /* LaunchScreen.storyboard */; };
 		25DE85F51BFA152700CFA6CA /* myJugendtreffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE85F41BFA152700CFA6CA /* myJugendtreffTests.swift */; };
 		25DE86001BFA152700CFA6CA /* myJugendtreffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE85FF1BFA152700CFA6CA /* myJugendtreffUITests.swift */; };
+		25DE86121BFA1B1800CFA6CA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DE86111BFA1B1800CFA6CA /* SWRevealViewController.m */; };
+		25DE86141BFA1D9B00CFA6CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DE86131BFA1D9B00CFA6CA /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		25DE85FB1BFA152700CFA6CA /* myJugendtreffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myJugendtreffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DE85FF1BFA152700CFA6CA /* myJugendtreffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myJugendtreffUITests.swift; sourceTree = "<group>"; };
 		25DE86011BFA152700CFA6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DE860F1BFA1B1700CFA6CA /* myJugendtreff-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myJugendtreff-Bridging-Header.h"; sourceTree = "<group>"; };
+		25DE86101BFA1B1800CFA6CA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		25DE86111BFA1B1800CFA6CA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		25DE86131BFA1D9B00CFA6CA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				25DE85E01BFA152700CFA6CA /* Main.storyboard */,
+				25DE86131BFA1D9B00CFA6CA /* HomeViewController.swift */,
+				25DE860E1BFA1AF500CFA6CA /* SWRevealViewController */,
 				25DE860D1BFA178300CFA6CA /* Additional Files */,
 			);
 			path = myJugendtreff;
@@ -131,6 +139,16 @@
 				25DE85E31BFA152700CFA6CA /* myJugendtreff.xcdatamodeld */,
 			);
 			name = "Additional Files";
+			sourceTree = "<group>";
+		};
+		25DE860E1BFA1AF500CFA6CA /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25DE86101BFA1B1800CFA6CA /* SWRevealViewController.h */,
+				25DE86111BFA1B1800CFA6CA /* SWRevealViewController.m */,
+				25DE860F1BFA1B1700CFA6CA /* myJugendtreff-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +213,7 @@
 		25DE85D11BFA152700CFA6CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Fabian Kola";
 				TargetAttributes = {
@@ -265,6 +284,8 @@
 			files = (
 				25DE85E51BFA152700CFA6CA /* myJugendtreff.xcdatamodeld in Sources */,
 				25DE85DD1BFA152700CFA6CA /* AppDelegate.swift in Sources */,
+				25DE86121BFA1B1800CFA6CA /* SWRevealViewController.m in Sources */,
+				25DE86141BFA1D9B00CFA6CA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,10 +427,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = myJugendtreff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.fabian-kola.myJugendtreff";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myJugendtreff/myJugendtreff-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -417,10 +441,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = myJugendtreff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.fabian-kola.myJugendtreff";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "myJugendtreff/myJugendtreff-Bridging-Header.h";
 			};
 			name = Release;
 		};
